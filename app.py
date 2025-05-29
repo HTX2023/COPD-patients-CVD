@@ -187,5 +187,10 @@ if submitted:
         unsafe_allow_html=True
     )
 
-    st.markdown("---")
-    st.warning("*These predictions are for informational purposes only. Consult healthcare professionals for tailored advice.*")
+st.markdown("---")
+
+# 用普通的 markdown 输出，不带背景框
+st.markdown(
+    "*These predictions are for informational purposes only. "
+    "Consult healthcare professionals for tailored advice.*"
+)
