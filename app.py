@@ -19,7 +19,7 @@ with open('feature_names.json', 'r') as f:
 st.set_page_config(page_title="COPD-CVD Risk Prediction", layout="wide")
 
 # App title
-st.title("COPD Patient Cardiovascular Disease (CVD) Risk Prediction")
+st.title("COPD Patient Cardiovascular Disease (CVD) Risk Prediction\n(Based on Machine Learning Model)")
 
 # Introductory section
 intro_col1, intro_col2 = st.columns([1, 1])
